@@ -13,7 +13,7 @@ Home page links to Image 3 Page, Page 3 links back to home page
 
 # Project Task: 
 - [ ] Embed your css into your HTML page 
-- [ ] Create an HTML header section and add todo comme nts for the future - [ ]implementation of the p roject 
+- [ ] Create an HTML header section and add todo comments for the future - [ ]implementation of the p roject 
 - [ ] Create footer that holds the temporary links for y our social media - [ ]handles that we will be ad ding as the project progresses
 - [ ] Create a main section that will hold the proje cts list 
 - [ ] In the main section nest an image tag and ancho r tag for each image
