@@ -21,7 +21,7 @@ Home page links to Image 3 Page, Page 3 links back to home page
 - [ ] Add the class attribute to all element 
 - [ ] Center the images on the page so that there ’s an even amount of space - [ ]from the top,  bottom, left and right side of the page 
 - [ ] Comment the code to explain how you are think ing about adding new or - [ ]existing eleme nts 
-- [ ] Add id and class attributes names that are useful in helping to your - [ ]peers so that they will be able to provide feedback
+- [ ] Add id and class attributes names that are useful in helping to your peers so that they will be able to provide feedback
 
 
 
