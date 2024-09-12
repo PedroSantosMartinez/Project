@@ -11,16 +11,27 @@ body{
 }
 
 #one{
-    border-style: dashed;
+    border-style: solid;
     border-radius: 10px;
 
+}
 
+#two{
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+#three{
+    border-style: solid;
+    border-radius: 10px;
+    height: 315px;
 }
 
 h1{
     text-align: center;
     padding: auto;
-    border-style: solid;
+    line-break: auto;
     background-color: aliceblue;
     
     
