@@ -1,39 +1,64 @@
-
-body{
+body {
     background-color: rgb(230, 181, 4);
 }
 
-
-.image-row{
+.image-row {
     display: flex;
     justify-content: center;
     align-content: center;
-
+    gap: 20px;
 }
 
-#one{
-    border-style: solid;
-    border-radius: 10px;
-
-}
-
-#two{
-    border-style: solid;
-    border-radius: 10px;
-
-}
-
-#three{
-    border-style: solid;
-    border-radius: 10px;
-    height: 315px;
-}
-
-h1{
+.polaroid-frame {
+    border: 10px solid white; /* White border like polaroid edges */
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5); /* Shadow for polaroid effect */
     text-align: center;
-    padding: auto;
-    line-break: auto;
+    width: fit-content;
+    transition: transform 0.3s ease;
+}
+
+.polaroid-frame:hover {
+    transform: scale(1.05); /* Slight hover effect */
+}
+
+.polaroid-frame img {
+    border-radius: 5px;
+    max-height: 300px; /* Adjust image height */
+}
+
+.polaroid-frame figcaption {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Caption color */
+}
+
+h1 {
+    display: inline-block; /* Makes the border fit the text size */
+    padding: 10px;
     background-color: aliceblue;
-    
-    
+    border: 2px solid black; /* Border around the text */
+}
+
+header {
+    text-align: center; /* Centers the h1 inside the header */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.social-media-footer {
+    margin-top: auto;
+}
+
+.social-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
 }
